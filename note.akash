@@ -1,0 +1,81 @@
+Server creation
+=================
+codes
+===========
+
+1. Create package.json - npm init
+
+2. Install express - npm i express
+
+3. To run Server - node index.js
+(Changes are not automatically reflect in node so we need to recompile the application then go to browser and reload.This process is very difficult so we introduced new method nodemon(we not need recompile the server again and again))
+
+4. To install nodemon - npm i -g nodemon(-g means global)
+
+5. Install jsonwebtoken - npm i jsonwebtoken
+
+6. Install mongoose - npm i mongoose
+
+7. Install corse - npm i cors
+
+steps
+=========
+
+1. Create folder
+
+2. Create package.json
+
+3. Install express
+
+4. create index.js file
+Then import express to this file(Insted of express we are using require)
+
+5. import express in index.js
+
+6. create an app using express
+
+7. set up the port number
+
+8. Resolve the http request
+
+9. Run the Server
+
+10.
+
+11. Middleware - (req,res,next)=> {}   (If a middleware in our project then it will execute first even we give register response)
+
+    11.1 Application specific middleware (using application specific middleware we can execute one function before executing other function)
+
+    11.2 Router specific Middleware (It execute only specified request)
+
+12. JWT Token - To authentication
+
+    12.1 Token generation - sign()
+
+    12.2 Token validation - verify()    
+
+13. Db connection
+
+    13.1 Install mongoose
+
+    13.2 Import mongoose
+
+    13.3 Define connection string
+
+    13.4 Create model
+
+    13.5 export model
+
+14. Promice - To deal asynchronous events
+
+    14.1 then() - resolved state
+
+    14.2 catch() -reject state
+
+15. Corse - cross origin resourse sharing
+
+    15.1 install cors
+
+    15.2 Import to Index.js
+
+    15.3 
