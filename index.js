@@ -24,32 +24,6 @@ app.use(cors({
 // to parse json
 app.use(express.json())
 
-// resolve http request from client
-
-// // get- to read data
-// app.get('/', (req, res) => {
-//     res.send("ITS A GET METHOD")
-// })
-
-// // post- to create data
-// app.post('/', (req, res) => {
-//     res.send("ITS A POST METHOD")
-// })
-
-// // put- to update/modify data
-// app.put('/', (req, res) => {
-//     res.send("ITS A PUT METHOD")
-// })
-
-// // patch- to update partially data
-// app.patch('/', (req, res) => {
-//     res.send("ITS A PATCH METHOD")
-// })
-// // Delete- to Delete data
-// app.delete('/', (req, res) => {
-//     res.send("ITS A  DELETE METHOD")
-// })
-
 
 
 // Application specific miidleware
